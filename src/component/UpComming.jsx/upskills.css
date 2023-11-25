@@ -1,0 +1,12 @@
+@keyframes skills-carousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+  }
+  
+  .animate-skills-carousel {
+    animation: skills-carousel 20s linear infinite;
+  }

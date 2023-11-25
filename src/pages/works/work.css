@@ -1,0 +1,60 @@
+
+@keyframes rotateY {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rotate-y {
+    animation: rotateY 2s linear infinite;
+    transform-style: preserve-3d;
+    transform-origin: center;
+  }
+  .animate-div {
+    position: relative;
+    transition: left 2s;
+    left: -200px; /* Starting position of the div */
+  }
+  
+  .start-animation {
+    left: 0px; /* Real position of the div */
+  }  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .animate-div {
+      /* Adjust styles for smaller screens */
+      left: -25%; /* Example adjustment, modify as needed */
+    }
+  
+    .start-animation {
+      /* Adjust styles for smaller screens */
+      left: 0; /* Example adjustment, modify as needed */
+    }
+  }
+  
+  /* Media query for screens with a maximum width of 480 pixels */
+  @media screen and (max-width: 480px) {
+    .animate-div {
+      /* Adjust styles for even smaller screens */
+      left: -10%; /* Example adjustment, modify as needed */
+    }
+  
+    .start-animation {
+      /* Adjust styles for even smaller screens */
+      left: 0; /* Example adjustment, modify as needed */
+    }
+    .animated-text {
+        /* Adjust styles accordingly for smaller screens */
+         /* Disable the typing animation on smaller screens */
+        /* Optionally, set a different width for smaller screens */
+      }
+  }
