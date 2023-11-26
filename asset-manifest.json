@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab6e7b1f.css",
+    "main.js": "/static/js/main.a58c6417.js",
+    "static/js/787.8cf52469.chunk.js": "/static/js/787.8cf52469.chunk.js",
+    "static/media/stora.mp4": "/static/media/stora.3da64869e13c6aa8f7b0.mp4",
+    "static/media/solasera.mp4": "/static/media/solasera.c6c6ea91b6b2557bbbf5.mp4",
+    "static/media/egybuid.mp4": "/static/media/egybuid.d9ab4f5c85749b56c053.mp4",
+    "static/media/EgyCamp.mp4": "/static/media/EgyCamp.a8282ab6b0ada7518664.mp4",
+    "static/media/nextcent.mp4": "/static/media/nextcent.7fa0defe5ded817eb0ee.mp4",
+    "static/media/tesla.mp4": "/static/media/tesla.001da036887e54cac2df.mp4",
+    "static/media/‏‏لقطة الشاشة (304).png": "/static/media/‏‏لقطة الشاشة (304).14003b58930ae2c0ee6a.png",
+    "static/media/2150851338.jpg": "/static/media/2150851338.fc9ed572ead8b2d364f6.jpg",
+    "static/media/mypic.png": "/static/media/mypic.8c1d69c80efb4e49b941.png",
+    "static/media/RestPOS.png": "/static/media/RestPOS.558fb151c51d834cfc3d.png",
+    "static/media/efe.png": "/static/media/efe.59e7d0959104b4bf8b1e.png",
+    "static/media/best.png": "/static/media/best.2c8e5d8f2591af6f37ee.png",
+    "static/media/8997977.png": "/static/media/8997977.6ca5e10fe70f13776358.png",
+    "static/media/2nd-place (1).png": "/static/media/2nd-place (1).9f46540c9b7532ecd0e9.png",
+    "index.html": "/index.html",
+    "main.ab6e7b1f.css.map": "/static/css/main.ab6e7b1f.css.map",
+    "main.a58c6417.js.map": "/static/js/main.a58c6417.js.map",
+    "787.8cf52469.chunk.js.map": "/static/js/787.8cf52469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab6e7b1f.css",
+    "static/js/main.a58c6417.js"
+  ]
+}
