@@ -52,9 +52,5 @@
       /* Adjust styles for even smaller screens */
       left: 0; /* Example adjustment, modify as needed */
     }
-    .animated-text {
-        /* Adjust styles accordingly for smaller screens */
-         /* Disable the typing animation on smaller screens */
-        /* Optionally, set a different width for smaller screens */
-      }
+    
   }

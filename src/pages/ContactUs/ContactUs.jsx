@@ -33,9 +33,7 @@ const ContactUs = () => {
       observer.disconnect();
     };
   }, []);
-  const handleAnimation = () => {
-    setIsAnimated(true);
-  };  
+
   return (
     <div className=" w-full  lg:px-40 lg:py-5  px-12  pt-[40%]  lg:h-max h-screen  bg-cover bg-no-repeat" style={{backgroundImage:`url(${landing})`}}>
       <div  ref={sectionRef}

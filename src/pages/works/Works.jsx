@@ -42,9 +42,9 @@ const Works = () => {
       observer.disconnect();
     };
   }, []);
-  const handleAnimation = () => {
-    setIsAnimated(true);
-  };  
+
+  
+
   return (
     <div ref={sectionRef} className={` w-full     lg:h-max h-screen  animate-div ${
       isAnimated ? "start-animation" : ""
@@ -320,7 +320,7 @@ Solasera is a cutting-edge application crafted to enhance your company's efficie
       <SwiperSlide>
       <div className="flex flex-col lg:flex-row gap-4">
         <div   className=" ">
-         <img src={restpos} />
+         <img src={restpos} alt=""/>
         </div>
         <div className="">  
           <h1 className="text-orange-500 font-bold text-2xl lg:pt-20 pb-5 ">RESTPOS <span className="text-white">Point Of Sale</span></h1>
@@ -347,7 +347,7 @@ Solasera is a cutting-edge application crafted to enhance your company's efficie
       <SwiperSlide>
       <div className="flex flex-col lg:flex-row gap-4">
         <div   className=" ">
-         <img src={nursopital}  />
+         <img src={nursopital} alt="" />
         </div>
         <div className="">  
           <h1 className="text-orange-500 font-bold text-2xl lg:pt-20 pb-5 ">Nurspital <span className="text-white">Medical Services</span></h1>

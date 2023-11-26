@@ -42,9 +42,6 @@ const About = () => {
       observer.disconnect();
     };
   }, []);
-  const handleAnimation = () => {
-    setIsAnimated(true);
-  };  
 
   return (
     <div className=" w-full  lg:px-24 lg:py-5  px-12 py-24 bg-[#ECF9FF] lg:h-max ">
@@ -55,7 +52,7 @@ const About = () => {
         }`}
       >
         <div style={{ perspective: "500px" }}>
-          <img src={mypic} className="w-[70px] h-[70px] rotate-y" />
+          <img src={mypic} className="w-[70px] h-[70px] rotate-y" alt="" />
         </div>
         <h1 className="font-bold pt-5 ">Abdulrahman Mohammed Fahmy</h1>
         <span className="font-semibold pt-5 ">23 Years old</span>
@@ -112,12 +109,12 @@ const About = () => {
       <div className={`mt-20 py-5 px-5 animate-div  bg-white rounded-lg ${
         isAnimated ? "start-animation" : ""
       }`}>
-        <img src={icon1} className="w-24 h-24" />
+        <img src={icon1} className="w-24 h-24" alt=""/>
         <h1 className="text-orange-500 font-bold text-x py-2">
           Qualification & Experience
         </h1>
         <div className="flex flex-row gap-2 ">
-          <img src={gradIcon} className="w-8 h-8" />
+          <img src={gradIcon} className="w-8 h-8"  alt=""/>
           <h1 className="font-bold text-md text-black">
             Computers and Information, Information Systems Department, Ain Shams
             University.
@@ -125,15 +122,15 @@ const About = () => {
         </div>
         <div className="flex lg:flex-row flex-col justify-between gap-5 pt-5">
           <div className="flex flex-row gap-2">
-            <img src={grade} className="w-8 h-8" />
+            <img src={grade} className="w-8 h-8" alt="" />
             <h1 className="font-bold text-sm">Very Good</h1>
           </div>
           <div className="flex flex-row gap-2">
-            <img src={laptop} className="w-8 h-8" />
+            <img src={laptop} className="w-8 h-8"  alt=""/>
             <h1 className="font-bold text-sm">Excellent graduation project</h1>
           </div>
           <div className="flex flex-row gap-2">
-            <img src={secicon} className="w-8 h-8" />
+            <img src={secicon} className="w-8 h-8"  alt=""/>
             <h1 className="font-bold text-sm ">
               Information Systems Department
             </h1>
@@ -152,7 +149,7 @@ const About = () => {
         <h1 className="font-bold text-md text-orange-500 py-5">
            New Certificates in Web Development
         </h1>
-        <img src={efeCerticate} className="w-full lg:h-[400px] px-[20%]" />
+        <img src={efeCerticate} className="w-full lg:h-[400px] px-[20%]" alt=""/>
   
       </div>
       </div>

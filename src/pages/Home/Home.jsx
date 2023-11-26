@@ -25,9 +25,6 @@ const Home = () => {
       observer.disconnect();
     };
   }, []);
-  const handleAnimation = () => {
-    setIsAnimated(true);
-  };
 
 
   return (
@@ -76,7 +73,7 @@ const Home = () => {
            <p className='lg:w-[550px] text-[#060640] opacity-70 font-semibold'>I passionate about creating seamless digital experiences, I craft responsive and visually compelling websites. My focus on user-centric design principles ensures that every interface I create is both intuitive and engaging. Let's collaborate to transform your ideas into captivating and functional digital solutions.</p>
           </div>
           <div className='pt-[20%]'>
-                <img src={mypic} className='w-[200px] h-[200px] '/>
+                <img src={mypic} className='w-[200px] h-[200px] ' alt=""/>
           </div>
       </div>
  
